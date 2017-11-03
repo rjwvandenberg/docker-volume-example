@@ -5,8 +5,8 @@ start.py contains a script that reads a number from a file prints it to standard
 First build a container with this script and run it:
 
 ```
-    docker build . -t startup_counter
-    docker run --name counter -t startup_counter
+docker build . -t startup_counter
+docker run --name counter -t startup_counter
 ```
 
 It should output 0 
